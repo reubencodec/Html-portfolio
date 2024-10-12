@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Example</title>
+</head>
+<body>
+<h2>Contact form</h2>
+<form action="formexample.html">
+    <label for="fullName">Full Name</label><br>
+    <input type="text" name="fullName" id="fullName"><br>
+    <label for="username">Username</label><br>
+    <input type="text" id="username"><br>
+    <label for="password">Password</label><br>
+    <input type="password" name="password" id="password"><br><br>
+    <label for="select">Select your options</label>
+    <select id="options" name="options">
+        <option value="email">Email a Copy</option>
+        <option value="sms">SMS a Copy</option>
+        <option value="post">Post a Copy</option>
+    </select><br><br>
+
+    <span>Choose your terms</span><br>
+    <input type="checkbox" name="checkbox1" id="checkbox1" value="agreed">
+    <label for="checkbox1">I agree</label><br>
+    <input type="checkbox" name="checkbox2" id="checkbox2" value="NotAgreed">
+    <label for="checkbox2">Disagree</label><br>
+    <input type="checkbox" name="checkbox2" id="checkbox3" value="Neither agree or disagree">
+    <label for="checkbox3">Neither agree or disagree</label><br>
+    <input type="submit" value="Submit"><br><br>
+
+    <label for="feedback">Feedback</label><br>
+    <input type="text" name="feedback" id="feedback">
+</form>
+</body>
+</html>
